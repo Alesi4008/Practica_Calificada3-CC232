@@ -8,3 +8,7 @@ cmake para la compilacion del archivo main.cpp y los archivos de prueba
 3er dia (06/06/2026):
 Implementacion de los distintos tipos de casos en el test.cpp para validar que el algoritmo soporte casos borde , actualizacion 
 del CMakeLists para la compilacion , implementacion del main.cpp para la ejecucion del algoritmo 
+4to dia (07/06/2026):
+Llenado del Readme.md , Resputestas_obligatorias.md correccion del CMakeLists y llenado de los archivos .txt dentro de la 
+carpeta resultados para sustentar resultados , adicion del .gitignore y input.txt en la carpeta tests para ejecutar un caso
+de prueba con datos establecidos
