@@ -29,8 +29,9 @@ El problema exige calcular el costo mínimo para igualar todos los elementos de 
 
 #### Archivos relevantes
 - `include/`: Contiene la cabecera `SlidingWindow.h` con la API pública.
-- `src/`: Contiene la implementación lógica en `SlidingWindow.cpp` y el programa principal `main.cpp`.
-- `tests/`: Contiene el archivo de pruebas `test_pc3.cpp` y el archivo `input.txt` para probar el main.
+- `src/`: Contiene la implementación lógica en `SlidingWindow.cpp`
+- `demos/` : Contiene el programa principal `main.cpp`
+- `tests/`: Contiene el archivo de pruebas `test.cpp` y el archivo `input.txt` para probar el main.
 - `docs/respuestas_obligatorias.md`: Sustento teórico y respuestas específicas de CSES 1077.
 - `docs/bitacora.md`: Registro del avance diario y commits.
 - `resultados/`: Evidencia física reproducible en `.txt` de que las pruebas y ejecuciones compilan y corren.

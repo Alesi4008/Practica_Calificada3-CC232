@@ -1,25 +1,23 @@
 # Bitácora del Proyecto
 
 ### Día 1 (02/06/2026)
-* **Inicialización del proyecto:** Creación de la estructura base, incluyendo directorios y archivos iniciales.
-* **Control de versiones:** Inicialización del repositorio en GitHub y subida del primer avance arquitectónico.
+* Creación del repositorio en GitHub y primera lectura del problema asignado (CSES 1077).
+* Armé la estructura básica de carpetas (`src`, `include`, `tests`) para mantener el orden de la PC3.
 
 ### Día 2 (05/06/2026)
-* **Estructuración de evidencias:** Creación de archivos complementarios como esta bitácora, la carpeta `resultados/` y sus respectivos archivos `.txt`.
-* **Desarrollo del algoritmo:** Programación de la lógica de la ventana deslizante para hallar la mediana dividiendo los datos en dos grupos.
-* **Modularización:** Declaración de la clase principal en el archivo `.h` y la implementación de su lógica en el archivo `.cpp`.
-* **Configuración inicial de CMake:** Adición de las reglas en el `CMakeLists.txt` para la compilación del `main.cpp` y los archivos de prueba.
+* Implementé la lógica principal de la ventana deslizante. 
+* Decidí usar dos `std::multiset` para ir dividiendo los datos en dos mitades y así mantener la mediana accesible.
+* Creé el `CMakeLists.txt` inicial para probar la compilación del `main.cpp`.
 
 ### Día 3 (06/06/2026)
-* **Pruebas y validación:** Implementación de distintos tipos de casos en `test.cpp` para asegurar que el algoritmo soporte casos borde.
-* **Punto de entrada:** Implementación de la lógica de ejecución en el archivo `main.cpp`.
-* **Ajustes de compilación:** Actualización del `CMakeLists.txt` para integrar y compilar correctamente el entorno de pruebas.
+* Me trabé un poco viendo cómo manejar los datos repetidos (duplicados), así que agregué `test.cpp` para aislar casos manuales.
+* Ajusté el `CMakeLists.txt` para que compile correctamente el ejecutable de pruebas (`test_pc3`).
 
 ### Día 4 (07/06/2026)
-* **Documentación:** Llenado técnico del `README.md` y resolución del documento `respuestas_obligatorias.md`.
-* **Generación de evidencias:** Corrección final del `CMakeLists.txt` y ejecución del código para llenar los archivos `.txt` dentro de la carpeta `resultados/` y sustentar la correctitud del algoritmo.
-* **Gestión de repositorio y datos:** Adición del archivo `.gitignore` para evitar subir binarios, y creación del archivo `input.txt` en la carpeta `tests/` para ejecutar casos de prueba con datos establecidos.
+* Día dedicado a la documentación. Llené el `README.md` siguiendo estrictamente la plantilla de las indicaciones.
+* Resolví las preguntas del problema en `respuestas_obligatorias.md`.
+* Agregué el `.gitignore` porque me di cuenta de que se estaban subiendo binarios al repositorio por error. Guardé las salidas de las pruebas en la carpeta `resultados/`.
 
 ### Día 5 (09/06/2026)
-* **Integración de actividades previas:** Resolución y adición de las actividades teóricas de las semanas 4, 5 y 6.
-* **Refinamiento final:** Corrección de ligeros detalles técnicos en la estructura de directorios y mejoramiento estético de la `bitacora.md` para la entrega.
+* Revisión e integración de las actividades teóricas de las semanas 4, 5 y 6.
+* Última limpieza de código, probé clonar el repositorio en una carpeta limpia para ver si el build de CMake seguía funcionando sin errores. Todo listo para grabar.
