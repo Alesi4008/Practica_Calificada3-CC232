@@ -43,4 +43,5 @@ El repositorio se ha mantenido libre de binarios. Se implementó un archivo CMak
 El proyecto se compila desde una copia limpia del repositorio usando:
 ```bash
 cmake -G "MinGW Makefiles" -S . -B build
+cmake -S . -B build
 cmake --build build

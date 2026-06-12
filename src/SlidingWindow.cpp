@@ -1,4 +1,5 @@
 #include <iterator>
+#include <iostream>
 #include "SlidingWindow.h"
 SlidingWindow::SlidingWindow() {
     left_sum = 0;
@@ -19,6 +20,7 @@ void SlidingWindow::balance() {
         right_sum -= *it;
         right_set.erase(it);
     }
+    std::cout << "Invariante:    Izquierdo : " << left_set.size() <<"   " << "Derecho : " << right_set.size() << "\n"<<std::endl;
 }
 
 void SlidingWindow::add_val(long long val) {
